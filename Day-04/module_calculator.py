@@ -1,6 +1,6 @@
-import calculator-function
+import calc_function_approach
 
-calculator-function
+calc_function_approach
 
 def multiply():
     multiply = num1 * num2
