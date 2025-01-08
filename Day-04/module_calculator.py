@@ -1,6 +1,6 @@
 import calc_function_approach
 
-calc_function_approach()
+calc_function_approach
 
 def multiply():
     num1 = 10
