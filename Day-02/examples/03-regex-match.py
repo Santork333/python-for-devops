@@ -1,7 +1,7 @@
 import re
 
 text = "The quick brown fox"
-pattern = r"quick"
+pattern = r"The"
 
 match = re.match(pattern, text)
 if match:

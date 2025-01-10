@@ -1,10 +1,13 @@
 import re
 
-text = "The quick brown fox"
-pattern = r"brown"
+text = "Python is great. Python is fun."
+pattern = r"Python"
 
-search = re.search(pattern, text)
-if search:
-    print("Pattern found:", search.group())
+# Using re.findall to find all occurrences of the pattern
+matches = re.findall(pattern, text)
+
+# Adding an if-else condition to handle matches
+if matches:
+    print("Matches found:", matches)
 else:
-    print("Pattern not found")
+    print("No matches found.")
